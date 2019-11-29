@@ -17,6 +17,6 @@ public class MovieOffset : MonoBehaviour
     void Update()
     {
         offset += 0.001f;
-        currentMaterial.SetTextureOffset("_mainTex", new Vector2 (offset*speed, 0));
+        currentMaterial.SetTextureOffset("_MainTex", new Vector2 (offset*speed, 0));
     }
 }
