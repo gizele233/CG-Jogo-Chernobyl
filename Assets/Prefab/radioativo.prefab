@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 4898739696598705401}
   - component: {fileID: 3800760937226491528}
   - component: {fileID: 5436638735098325588}
+  - component: {fileID: 114737193258740334}
   m_Layer: 0
   m_Name: radioativo
   m_TagString: Untagged
@@ -27,8 +28,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4898739696598705400}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.9068434, y: -0.963966, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 1.7, y: -1.34, z: 0}
+  m_LocalScale: {x: 0.28695986, y: 0.28695986, z: 0.28695986}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -128,3 +129,15 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.5459558, y: 1.2210385}
   m_EdgeRadius: 0
+--- !u!114 &114737193258740334
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4898739696598705400}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f36dd24a540069b43a9034e904128891, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

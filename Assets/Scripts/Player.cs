@@ -14,8 +14,7 @@ public class Player : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
-    {
+    void Update(){
         float horizontal = Input.GetAxisRaw("Horizontal");
         float vertical = Input.GetAxisRaw("Vertical");
 
@@ -38,5 +37,8 @@ public class Player : MonoBehaviour
 
         }
 
+    }
+    private void OnTriggerEnter2D(Collider2D collision){
+        controleJogo.GameOver();
     }
 }

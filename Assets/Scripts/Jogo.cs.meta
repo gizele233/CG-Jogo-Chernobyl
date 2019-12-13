@@ -3,7 +3,17 @@ guid: d2773bb9b4c27fa4aac976eba53c2a29
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - tPlayer: {fileID: 3433802962342466362, guid: 8653b578bd26d0f4fb21130165369a8c,
+      type: 3}
+  - prefabSolo: {fileID: 2089965084079197289, guid: 9f94e7b1c494e054ebe7b84f463fe320,
+      type: 3}
+  - prefabBarril: {fileID: 4898739696598705400, guid: ae4eb604366688343a08387cae5e7f24,
+      type: 3}
+  - txtPontos: {fileID: 7240477280633358705, guid: 6615a930e4d56f441b88a0ca0bdee711,
+      type: 3}
+  - Sfx: {fileID: 2014234507722571587, guid: 6e1d07cab1f6abe4bb2716c906d8efeb, type: 3}
+  - fxPontos: {fileID: 8300000, guid: 83073a8a47bd54548acbc9339aa51636, type: 3}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
